@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A photographers portfolio</title>
+  <script src="js/jquery-2.2.4.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 title-logo"><img src="images/logo-ph.jpg" class="logo-img" alt="Website Logo"></div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super">Harikrish N.</h1>
+        <h4>The Photographer</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="images/center_image.jpg" class="img-responsive" alt="My portfolio pic">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 featured-text">
+        <h2>Featured Clicks</h2>
+      </div>
+    </div>
+    <div class="row text-center text-uppercase">
+      <div class="col-md-4">
+        <img src="images/fireworks.jpg" class="img-responsive" alt="July 4th Fireworks" data-toggle="modal" data-target="#project1">
+        <h3>Fireworks</h3>
+        <p><a href="https://flic.kr/p/a2SRGB">Flickr Link</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/block_island.jpg" class="img-responsive" alt="Sunny day in block island" data-toggle="modal" data-target="#project2">
+        <h3>Block Island</h3>
+        <p><a href="https://flic.kr/p/a2SQxz">Flickr Link</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/moon.jpg" class="img-responsive" alt="The companion moon" data-toggle="modal" data-target="#project3">
+        <h3>The Moon</h3>
+        <p><a href="https://flic.kr/p/a2VHSu">Flickr Link</a></p>
+      </div>
+    </div>
+    <div class="row text-center text-uppercase">
+      <div class="col-md-4">
+        <img src="images/flower.jpg" class="img-responsive" alt="Smiling Flower" data-toggle="modal" data-target="#project4">
+        <h3>Flower</h3>
+        <p><a href="https://flic.kr/p/a2SQqr">Flickr Link</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/trail.jpg" class="img-responsive" alt="Sunny day in block island" data-toggle="modal" data-target="#project5">
+        <h3>Walking Trail</h3>
+        <p><a href="https://flic.kr/p/9Ubpt9">Flickr Link</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/flower_art.jpg" class="img-responsive" alt="Flower Garden" data-toggle="modal" data-target="#project6">
+        <h3>Garden</h3>
+        <p><a href="https://flic.kr/p/9U8zag">Flickr Link</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="project1Label">Freedom Fireworks</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/fireworks.jpg" alt="July 4th Fireworks">
+          <p>
+            This is my first experience photographing fireworks. Fireworks held in New York city, but the views are really good
+            from across the river in Jersey City. I went there early to secure a nice spot and I setup my gears.
+            I photographed handfull of good ones and this one is my fav
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="project2Label">Beautiful Block Island</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/block_island.jpg" alt="Block Island">
+          <p>
+            A memorable trip to block island with my wife, then girlfriend, during 2012 summer.
+            I really enjoyed photographing this location as you get plenty of subjects to do so.
+            This pic is my favorite among all.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="project3Label">The Mesmerizing Moon</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/moon.jpg" alt="3D Moon">
+          <p>
+            I am big stargazer and moon always mesmerizes me. Since picturing moon is quite a challenge I wanted to
+            give it a try. And I was really happy the way it came out, 3D looking beautiful moon. Many people thinks full moon is
+            the best time to take a picture but I say otherwise. As 3/4th the moon has interesting contrast of light and shadow giving
+            you that 3D effect.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="project4Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="project4Label">Smiling Flower</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/flower.jpg" alt="Smiling Flower">
+          <p>
+            This one is during my earlier days of learning photography. Just learning to isolate and highlight the subjects
+            within the frame. This particular attempt claiming to incorporate those ideas and I was much happier with
+            the way it came out.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="project5Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="project5Label">Walking Trail</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/trail.jpg" alt="Walking Trail">
+          <p>
+            This walking trail is just beside my friends apartment complex. Whenever I visit them we all happen
+            to go for a long walk during the spring / summer times. Unforgettable moments and loads of fun walking
+            and photographing
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="project6Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="project6Label">Flower Garden</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/flower_art.jpg" alt="Flower Garden">
+          <p>
+            I went to a flower show in Philly not knowing what to really expect. Actually it turned out to be
+            an awesome experience clicking photographs. Usually photographing flowers is the easiest one as they
+            already look good and this one particular arrangment depicting a flower shop.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

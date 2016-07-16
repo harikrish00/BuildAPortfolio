@@ -1,0 +1,51 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.title-super {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.title-texts {
+    margin-top: 20px;
+}
+
+.center-img {
+    margin-bottom: 20px;
+}
+
+.featured-text {
+    color: #7d97ad;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+hr {
+    display: block;
+    border-width: 4px;
+    border-color: #9E9E9E;
+}
+
+.col-md-4 > img {
+    box-shadow: 10px 5px 10px #9E9E9E;
+}
